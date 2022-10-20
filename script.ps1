@@ -1,4 +1,4 @@
-$url = "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fasus_rog_fr%2Fstatus%2F1062021166351765505%3Flang%3Dga&psig=AOvVaw0zefSyo94XG1s8t9tk0SZk&ust=1666289908120000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIiVkuLz7PoCFQAAAAAdAAAAABAK"
+$url = "http://hal.sarbacame.com/img/wallpaper.jpg"
 
 $ext = $url.split(".")[-1]
 
@@ -98,6 +98,6 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 }
 
 
-Target-Comes
+
 Set-WallPaper -Image $wp -Style Fill
 Clean-Exfil
